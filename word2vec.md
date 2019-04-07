@@ -1,7 +1,8 @@
 
 
 >本文基于[word2vec原理CBOW与Skip-Gram模型基础](https://www.cnblogs.com/pinard/p/7160330.html)
-CBOW与Skip-Gram的模型计算的推导待补充(咕咕咕)
+>
+>CBOW与Skip-Gram的模型计算的推导待补充(咕咕咕)
 # word2vec训练过程
 >参考[word2vec简介与训练过程概要](https://blog.csdn.net/thriving_fcl/article/details/51404655)
 1. 首先是对语料进行预处理，比如中文语料的分词；去除语料中的停用词等等。
@@ -124,3 +125,7 @@ $len(w)=\frac{count(m)^{3/4}}{\sum_{u\in vocab}count(u)^{3/4}}$
 **基于Negative Sampling的Skip-Gram模型**
 
 ![咕咕咕](https://upload-images.jianshu.io/upload_images/16928957-84223823baef8e47.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+<div style="text-align: right"> by wu </div>
+<div style="text-align: right"> 2019.03.21 </div>
