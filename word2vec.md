@@ -94,7 +94,7 @@ $P(-)=1-P(+)$
 **Huffman树的梯度计算**
 **基于Hierarchical Softmax的CBOW模型和Skip-Gram模型**
 
-![咕咕咕](https://upload-images.jianshu.io/upload_images/16928957-84223823baef8e47.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![咕咕咕](img/4.6.4.jpg)
 
 ***
 #[基于Negative Sampling的模型](http://www.cnblogs.com/pinard/p/7249903.html)
@@ -107,7 +107,7 @@ Negative Sampling就是求解word2vec的另一种方式，它选择使用负采�
 ***
 **模型的梯度计算&如何使用1个正例和neg个负例进行二元逻辑回归**
 
-![咕咕咕](https://upload-images.jianshu.io/upload_images/16928957-84223823baef8e47.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![咕咕咕](img/4.6.4.jpg)
 ***
 **Negative Sampling 负采样方法**
 如何进行负采样得到neg个负例？:
@@ -124,7 +124,7 @@ $len(w)=\frac{count(m)^{3/4}}{\sum_{u\in vocab}count(u)^{3/4}}$
 
 **基于Negative Sampling的Skip-Gram模型**
 
-![咕咕咕](https://upload-images.jianshu.io/upload_images/16928957-84223823baef8e47.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![咕咕咕](img/4.6.4.jpg)
 
 
 <div style="text-align: right"> by wu </div>
