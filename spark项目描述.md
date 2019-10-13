@@ -1,0 +1,3 @@
+爬虫端通过kafka发送消息到spark，spark获取到的是url加上网页内容分词后的结果，然后通过flatmap将它们分开，
+然后使用map将词作为索引，给它赋值为1，然后使用reduceByKey求和，再使用foreachPartition将求和后的结果存入Hbase
+  
